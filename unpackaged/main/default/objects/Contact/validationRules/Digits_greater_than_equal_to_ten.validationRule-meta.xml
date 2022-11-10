@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digits_greater_than_equal_to_ten</fullName>
+    <active>false</active>
+    <errorConditionFormula>LEN(Phone) &lt; 10</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Length of phone number should be greater than or equal to 10.</errorMessage>
+</ValidationRule>
